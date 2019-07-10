@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE jboss PUBLIC
+      "-//JBoss//DTD JBOSS 5.0//EN"
+      "http://www.jboss.org/j2ee/dtd/jboss_5_0.dtd">
+<jboss>
+<!-- 	<enterprise-beans> -->
+<!-- 		<message-driven> -->
+<!-- 			<ejb-name>OyenteColaJMS</ejb-name> -->
+<!-- 			<destination-jndi-name>queue/miCola</destination-jndi-name> -->
+<!-- 			<mdb-user>admin</mdb-user> -->
+<!-- 			<mdb-passwd>admin</mdb-passwd> -->
+<!-- 		</message-driven> -->
+<!-- 	</enterprise-beans> -->
+</jboss>
