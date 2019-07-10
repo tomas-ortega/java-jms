@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.curso.jboss</groupId>
+	<artifactId>root</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<properties>
+		
+	</properties>
+	<modules>
+		<module>../U1.simplewebapp</module>
+		<module>../U2.simpleenterpriseapp</module>
+		<module>../U3.EJBOrderManagement</module>
+		<module>../U3.EJBOrderManagementClient</module>
+		<module>../U4.EjemploPoolConexiones</module>
+		<module>../U5.EjemploPoolConexionesEAR</module>
+		<module>../U6.EJB3.OrderManagement</module>
+		<module>../U7.JSTL.OrderManagementWeb</module>
+		<module>../U8.JSF.OrderManagementWeb</module>
+		<module>../U9.JEE5.OrderManagement</module>
+		<module>../Uz10.JMS</module>
+		<module>../Uz10.JMSClient</module>
+		<module>../Uz11.WebService</module>
+		<module>../Uz12.Seguridad</module>
+		<module>../Uz13.EjemplosReplicacionSesionesWeb</module>
+		<module>../Uz14.EjemploClusterEJB</module>
+                <module>../Uz14.EjemploClusterEJBCliente</module>
+                <module>../Uz15.ProblemasJVM</module>
+                <module>../Uz16.EJB3.OrderManagement.Seguro</module>
+                <module>../Uz17.EJB3.OrderManagement.Seguro.Cliente</module>
+                <module>../Uz18.example-module</module>
+                <module>../Uz18.example-module-updated</module>
+                <module>../Uz18.simplewebappwithmodule</module>
+                <module>../Uz18.simplewebappwithmoduleupdated</module>
+                <module>../Uz18.simpleenterpriseappwithmodules</module>
+		<module>../Uz19.EJB3.ExampleXATransaction</module>
+                <module>../Uz19.TestXATransactionWeb</module>
+                <module>../Uz19.TestXA</module>
+	</modules>
+</project>
